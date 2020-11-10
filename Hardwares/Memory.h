@@ -3,5 +3,5 @@
 //extern ErrorCode;
 int CheckMemory(){
 	printf("CheckMemory OK!\n");
-	return 0;
+	return -1;
 }

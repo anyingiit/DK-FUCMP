@@ -3,5 +3,5 @@
 //extern ErrorCode;
 int CheckCPU(){
 	printf("CPU OK!\n");
-	return 0;
+	return -1;
 }

@@ -3,5 +3,5 @@
 //extern ErrorCode;
 int CheckGPU(){
 	printf("GPU OK!\n");
-	return 0;
+	return -1;
 }
