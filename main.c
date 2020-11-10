@@ -1,13 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
+//#include <windows.h>
 #include"GlobalVars/GlobalVar.h"
 #include"Hardwares/MainBoard.h"
 extern int ErrorCode;
 int main() {
+//    system("chcp 936");
 	int volt;
-	printf("Input power(volt):\n");
+    printf("Input power(volt):\n");
 	scanf("%d", &volt);
 	if (ErrorCode = MainBoardManager(volt)) {
-		printf("ç¡¬ä»¶å¼‚å¸¸, é”™è¯¯ä»£ç :[%X]", ErrorCode);
+		printf("Ó²¼şÒì³£, ´íÎó´úÂë:[0x%X]", ErrorCode);
 		return ErrorCode;
 	}
 	else {

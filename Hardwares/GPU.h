@@ -2,6 +2,6 @@
 #include"../GlobalVars/GlobalVar.h"
 //extern ErrorCode;
 int CheckGPU(){
-	printf("GPU OK!\n");
-	return -1;
+	printf("GPU can not ok...\n");
+	return 9;
 }

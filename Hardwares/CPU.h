@@ -2,6 +2,6 @@
 #include"../GlobalVars/GlobalVar.h"
 //extern ErrorCode;
 int CheckCPU(){
-	printf("CPU OK!\n");
-	return -1;
+	printf("CPU can not ok..\n");
+	return 25;
 }

@@ -1,4 +1,3 @@
-
 #include"../GlobalVars/GlobalVar.h"
 #include"../Hardwares/CPU.h"
 #include"../Hardwares/GPU.h"
@@ -8,7 +7,7 @@ extern int ErrorCode;
 int POST(int volt) {
 	printf("Get volt[%d]V\n",volt);
 	if (volt != 220) {
-		printf("ç”µæºå¼‚å¸¸,ä»…æ”¯æŒ220Vè¾“å…¥\n");
+		printf("µçÔ´Òì³£,½öÖ§³Ö220VÊäÈë\n");
 		return 0x100 + 1;
 	}
 	printf("Power OK!\n");
