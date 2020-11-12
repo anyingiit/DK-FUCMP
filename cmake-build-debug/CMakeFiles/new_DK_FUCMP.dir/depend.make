@@ -8,6 +8,7 @@ CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../Hardwares/GPU.h
 CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../Hardwares/HardDisk.h
 CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../Hardwares/MainBoard.h
 CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../Hardwares/Memory.h
+CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../Hardwares/NetworkCard.h
 CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../Hardwares/Peripherals.h
 CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../main.c
 

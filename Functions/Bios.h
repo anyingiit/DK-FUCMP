@@ -5,6 +5,7 @@
 #include"../Hardwares/Memory.h"
 #include "../Hardwares/HardDisk.h"
 #include "../Hardwares/Peripherals.h"
+#include "../Hardwares/NetworkCard.h"
 
 extern int ErrorCode;
 int POST(int volt) {
@@ -61,6 +62,8 @@ int CheckComputer() {
             return 0x600 + ErrorCode;
         if (ErrorCode = CheckPeripherals())
             return 0x700 + ErrorCode;
+        if (ErrorCode = CheckNetworkCard())
+            return 0x800 + ErrorCode;
         return 0;
     } else{
         printf("%50s","CheckComputer Demo mode started...\n");
@@ -69,6 +72,7 @@ int CheckComputer() {
         CheckGPU()?statusReport("GPU",true):statusReport("GPU",false);
         CheckHardDisk()?statusReport("HdD",true):statusReport("HdD",false);
         CheckPeripherals()?statusReport("PRL",true):statusReport("PRL",false);
+        CheckNetworkCard()?statusReport("NWC",true):statusReport("NWC",false);
         return 0x900;
     }
 

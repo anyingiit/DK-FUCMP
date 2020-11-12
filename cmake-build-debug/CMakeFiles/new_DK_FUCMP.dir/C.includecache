@@ -21,6 +21,8 @@ F:/project/new_DK-FUCMP/Hardwares/Memory.h
 F:/project/new_DK-FUCMP/Hardwares/HardDisk.h
 ../Hardwares/Peripherals.h
 F:/project/new_DK-FUCMP/Hardwares/Peripherals.h
+../Hardwares/NetworkCard.h
+F:/project/new_DK-FUCMP/Hardwares/NetworkCard.h
 
 F:/project/new_DK-FUCMP/GlobalVars/GlobalVar.h
 
@@ -51,6 +53,8 @@ stdio.h
 -
 ../GlobalVars/GlobalVar.h
 F:/project/new_DK-FUCMP/GlobalVars/GlobalVar.h
+
+F:/project/new_DK-FUCMP/Hardwares/NetworkCard.h
 
 F:/project/new_DK-FUCMP/Hardwares/Peripherals.h
 
