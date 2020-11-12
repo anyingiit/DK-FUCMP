@@ -1,3 +1,3 @@
 int CheckNetworkCard(){
-    return 756;
+    return 0;
 }
