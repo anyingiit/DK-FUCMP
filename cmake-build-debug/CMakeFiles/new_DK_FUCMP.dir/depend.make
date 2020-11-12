@@ -5,7 +5,9 @@ CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../Functions/Bios.h
 CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../GlobalVars/GlobalVar.h
 CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../Hardwares/CPU.h
 CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../Hardwares/GPU.h
+CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../Hardwares/HardDisk.h
 CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../Hardwares/MainBoard.h
 CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../Hardwares/Memory.h
+CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../Hardwares/Peripherals.h
 CMakeFiles/new_DK_FUCMP.dir/main.c.obj: ../main.c
 

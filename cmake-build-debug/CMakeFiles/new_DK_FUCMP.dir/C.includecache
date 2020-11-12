@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 F:/project/new_DK-FUCMP/Functions/Bios.h
+stdbool.h
+-
 ../GlobalVars/GlobalVar.h
 F:/project/new_DK-FUCMP/GlobalVars/GlobalVar.h
 ../Hardwares/CPU.h
@@ -15,6 +17,10 @@ F:/project/new_DK-FUCMP/Hardwares/CPU.h
 F:/project/new_DK-FUCMP/Hardwares/GPU.h
 ../Hardwares/Memory.h
 F:/project/new_DK-FUCMP/Hardwares/Memory.h
+../Hardwares/HardDisk.h
+F:/project/new_DK-FUCMP/Hardwares/HardDisk.h
+../Hardwares/Peripherals.h
+F:/project/new_DK-FUCMP/Hardwares/Peripherals.h
 
 F:/project/new_DK-FUCMP/GlobalVars/GlobalVar.h
 
@@ -29,6 +35,8 @@ stdio.h
 -
 ../GlobalVars/GlobalVar.h
 F:/project/new_DK-FUCMP/GlobalVars/GlobalVar.h
+
+F:/project/new_DK-FUCMP/Hardwares/HardDisk.h
 
 F:/project/new_DK-FUCMP/Hardwares/MainBoard.h
 stdio.h
@@ -43,6 +51,8 @@ stdio.h
 -
 ../GlobalVars/GlobalVar.h
 F:/project/new_DK-FUCMP/GlobalVars/GlobalVar.h
+
+F:/project/new_DK-FUCMP/Hardwares/Peripherals.h
 
 F:/project/new_DK-FUCMP/main.c
 stdio.h
