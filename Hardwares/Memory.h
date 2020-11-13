@@ -2,5 +2,5 @@
 #include"../GlobalVars/GlobalVar.h"
 //extern ErrorCode;
 int CheckMemory(){
-	return 48;
+	return 0;
 }
