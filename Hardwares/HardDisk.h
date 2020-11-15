@@ -1,3 +1,3 @@
 int CheckHardDisk(){
-    return -9;
+    return 0;
 }
