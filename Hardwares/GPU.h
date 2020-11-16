@@ -2,5 +2,5 @@
 #include"../GlobalVars/GlobalVar.h"
 //extern ErrorCode;
 int CheckGPU(){
-	return 9;
+	return 0;
 }
