@@ -2,5 +2,5 @@
 #include"../GlobalVars/GlobalVar.h"
 //extern ErrorCode;
 int CheckCPU(){
-	return 25;
+	return 0;
 }
