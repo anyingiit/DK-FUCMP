@@ -47,7 +47,7 @@ void statusReport(char *name,int code){
 }
 
 int CheckComputer() {
-    bool demoMode = true;
+    bool demoMode = false;
     if (!demoMode){
         //	printf("checks");
         if (ErrorCode = CheckCPU())
