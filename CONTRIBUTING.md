@@ -32,14 +32,13 @@ Do not report security issues in public. Follow the steps in the [security polic
 2. Follow the existing code style.
 3. Add or update tests that cover your change.
 4. If the change is worth recording, add an entry under `Unreleased` in the [changelog](CHANGELOG.md).
-5. Make sure the CI checks pass.
-6. Open a pull request and fill in the template.
+5. Open a pull request and fill in the template.
 
 Smaller, focused pull requests are easier to review and get merged sooner than large ones. If you plan a bigger change, it is worth opening an issue first to agree on the approach.
 
 ## Development setup
 
-See [Getting started](README.md#getting-started) for how to install the dependencies and run the project locally.
+There is nothing to install or run: this repository has no manifest, no entry point, and no source file in any language. See [About The Project](README.md#about-the-project) for what it actually contains.
 
 ## Questions
 
